@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.headerContainer{ /*É tipo o container pai da barra, nele esta incluso o logo e a bar*/
+    height: 100%;
+    width: 100vw;
+    display: flex; /*Toda div fica em colum, quando eu coloco o display flex, ele fica flex, aí eu posso definir a direção deles se eu quero em linha (vai ser o padrao do display flex) ou se eu vou querer em coluna mesmo(que é o padrão da div sem a propriedade "display: flex;")*/
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.bar{/*mexe no container em que os botoes estao, mas obedece o container header*/
+    padding-right: 20px;
+    border-radius: 6%;
+    display: flex;
+    border: 0px solid rgb(255, 0, 0);
+    gap: 15px;
+}
+
+.logo{ /*propriedades do logo em <X>*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    padding-left: 80px;
+    color: rgb(240, 248, 255);
+}
+
+.botao{ /*estiliza os elementos com nome de classe botao*/
+    border-radius: 6%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 75px;
+    height: 30px;
+    border: 0px solid rgb(255, 0, 0);
+}
+
+a{
+    text-decoration: none;
+}
+
+.bar button{ /*Mexe em todo button dentro da class bar*/
+    width: 100%;
+    height: 100%;
+    border-radius: 6%;
+    color: rgb(0, 0, 0);   
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(155, 141, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    font-size: 100px;
+}
+
