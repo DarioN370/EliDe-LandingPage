@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
 
 *{
     padding:0%;
@@ -8,7 +9,7 @@
 
 body{
     background-color: black;
-    background-image: url(/assets/imgs/backgroundImage.svg);
+    background-image: url(/assets/imgs/BackGround.png);
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -26,29 +27,40 @@ body{
     
 }
 
-.bar{/*mexe no container em que os botoes estao, mas obedece o container header*/
+.bar{/*mexe no container em que os botoes da barra left-top estão, mas obedece o container do header*/
     padding-right: 20px;
     display: flex;
-    border: 0px solid rgb(255, 0, 0);
     gap: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo{ /*propriedades do logo em <X>*/
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
-    padding-left: 80px;
-    color: rgb(240, 248, 255);
+    padding-left: 70px;
+}
+
+.span1{
+    color: #4C259C;
+}
+
+.span2{
+    color: white;
+}
+
+.span3{
+    color: #4C259C;
 }
 
 .botao{ /*estiliza os elementos da class botao*/
-    color: aliceblue;
-    background-color: #000000;
+    color: #959595;
+    background-color: transparent;
     transition: background-color 0.5s ease;
     border-radius: 6%;
 }
 
 .botao:hover {
-    background-color: #919191; /* Cor do botão quando o mouse passa por cima */
+    background-color: #494848; /* Cor do botão quando o mouse passa por cima */
 }
 
 .bar button{ /*Mexe em todo button dentro da class bar*/
@@ -57,7 +69,7 @@ body{
     color: rgb(255, 255, 255);   
     cursor: pointer;
     background-color: #000000;
-    transition: background-color 0.5s ease;
+    transition: background-color 1s ease;
 }
 
 
@@ -97,19 +109,19 @@ main{
 .botaoContato button{
     margin-left: 250px;
     width: 50%;
-    background-image: linear-gradient(to right, #29002b, #6d1879d8); /* Cores do degradê */
-    color: #ffffff;
-    border: 8px solid #ffffff;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid #ffffff;
      /*colocando gradiente na borda do meu botao*/
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 6px;
-    transition: background-color 0.9s ease;
+    border-radius: 4px;
+    transition: background-color 1.0s ease;
 }
 
 button:hover {
-    background-color: #000000; /* Cor do botão quando o mouse passa por cima */
+    background-color: #494848; /* Cor do botão quando o mouse passa por cima */
 }
 
 
