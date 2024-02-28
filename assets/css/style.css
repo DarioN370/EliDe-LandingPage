@@ -9,7 +9,7 @@
 
 body{
     background-color: black;
-    background-image: url(./imgs/BackGround.png); 
+    background-image: url(../imgs/BackGround.png);
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -106,21 +106,21 @@ main{
     width: 500px;
 }
 
-.botaoContato button{
+.botaoContato {
     margin-left: 250px;
     width: 50%;
     color: rgb(255, 255, 255);
     background-color: transparent;
-    border: 1px solid #ffffff;
+    border: 5px outset #050259;
      /*colocando gradiente na borda do meu botao*/
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 4px;
-    transition: background-color 1.0s ease;
+    transition: background-color 0.5s ease;
 }
 
-button:hover {
+.botaoContato:hover {
     background-color: #494848; /* Cor do botão quando o mouse passa por cima */
 }
 
